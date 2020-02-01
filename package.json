@@ -1,0 +1,23 @@
+{
+    "name": "final_project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "ssh": "ssh nlwkobe30@35.185.170.23 -p 22 -i ~/.ssh/id_rsa2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.2",
+        "mysql": "^2.17.1"
+    }
+}
